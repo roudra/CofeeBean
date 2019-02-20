@@ -7,3 +7,5 @@ build
 /gradlew.bat
 */.settings
 .settings
+/.classpath
+/.project
