@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+    id 'maven'
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web-services', version:'2.1.2.RELEASE'
+    compile group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version:'2.1.2'
+    compile group: 'org.projectlombok', name: 'lombok', version:'1.18.4'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version:'2.7.0'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.1.2.RELEASE'
+    testCompile group: 'org.springframework.restdocs', name: 'spring-restdocs-mockmvc', version:'2.0.3.RELEASE'
+}

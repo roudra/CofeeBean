@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+    id 'java'
+    id 'maven'
+}
+
+description = """manager"""
+
+dependencies {
+    compile group: 'de.codecentric', name: 'spring-boot-admin-starter-server', version:'2.1.1'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.1.2.RELEASE'
+}
