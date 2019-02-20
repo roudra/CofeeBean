@@ -1,10 +1,4 @@
-plugins {
-    id 'java-library'
-    id 'java'
-    id 'maven'
-}
-
-description = """manager"""
+description = """Manager"""
 
 dependencies {
     compile group: 'de.codecentric', name: 'spring-boot-admin-starter-server', version:'2.1.1'
